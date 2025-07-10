@@ -88,6 +88,11 @@ img {
 .brand__section ul li {
   margin-bottom: 0.75rem;
   line-height: 1.5;
+}
+
+.brand_list li {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   border-left: 3px solid rgba(222, 226, 230, 1);

@@ -7,9 +7,32 @@
 
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <main class="brand">
+    <header class="main_header">
+      <h1>品牌故事</h1>
+      <h3>Brand Story</h3>
+    </header>
+
+    <section class="container">
+      <div class="brand-box">
+        <h4>走出城市的節奏，穿上自己的步調。</h4>
+        <div>
+          <p>我們相信，每一雙鞋都該帶著個性出場。</p>
+          <p>
+            在 URBNSTEP，我們認為鞋履不只是穿戴飾品，更是你與世界連結的語言。
+          </p>
+          <p>
+            融合城市結構與機能語彙，我們打造適合都會節奏的風格鞋款，陪你自信穿梭每一場風景。
+          </p>
+        </div>
+      </div>
+    </section>
+    <main class="brand container">
       <section class="brand__intro">
         <img
           src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/about.png?raw=true"
@@ -42,11 +65,17 @@
 
       <section class="brand__section">
         <h3>品牌歷程</h3>
-        <ul>
-          <li>2019｜URBNSTEP 在台北東區的創意工作室誕生。</li>
-          <li>2021｜首款【Urban Flow 系列】誕生，結合針織鞋面與城市靈感。</li>
-          <li>2025｜URBNSTEP 已成為台灣街頭生活風格的代表鞋履品牌之一。</li>
-        </ul>
+        <ol>
+          <li><time>2019</time>｜URBNSTEP 在台北東區的創意工作室誕生。</li>
+          <li>
+            <time>2021</time>｜首款【Urban Flow
+            系列】誕生，結合針織鞋面與城市靈感。
+          </li>
+          <li>
+            <time>2025</time>｜URBNSTEP
+            已成為台灣街頭生活風格的代表鞋履品牌之一。
+          </li>
+        </ol>
       </section>
 
       <div class="divider">
@@ -71,19 +100,55 @@
         <ul>
           <li>
             <a href="#">
-              <span class="material-symbols-outlined">north_east</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                fill="rgba(87, 162, 3, 1)"
+                class="bi bi-arrow-up-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
+                />
+              </svg>
               創辦人專訪：我們為什麼創立品牌？
             </a>
           </li>
           <li>
-            <a href="#"
-              ><span class="material-symbols-outlined">north_east</span>穿上
-              URNSTEP 的第一印象</a
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                fill="rgba(87, 162, 3, 1)"
+                class="bi bi-arrow-up-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
+                />
+              </svg>
+              穿上 URNSTEP 的第一印象</a
             >
           </li>
           <li>
             <a href="#">
-              <span class="material-symbols-outlined">north_east</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                fill="rgba(87, 162, 3, 1)"
+                class="bi bi-arrow-up-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
+                />
+              </svg>
               URNSTEP 與城市設計美學</a
             >
           </li>
@@ -94,5 +159,9 @@
         <hr />
       </div>
     </main>
+    <footer class="main_footer">
+      <p>Copyright ©2025 URBNSTYLE</p>
+      <span>All Rights Reserved.</span>
+    </footer>
   </body>
 </html>

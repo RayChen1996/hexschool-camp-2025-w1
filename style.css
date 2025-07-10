@@ -1,3 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+img {
+  vertical-align: middle; /* 移除圖片空隙 */
+  width: 100%;
+}
+
+.container {
+  width: 856px;
+  margin: 0 auto;
+}
 .brand {
   max-width: 960px;
   margin: 0 auto;
@@ -58,11 +77,21 @@
   margin-bottom: 24px;
 }
 
+.brand__section ol {
+  padding-left: 20px;
+}
+
+.brand__section ol li {
+  list-style-type: disc;
+}
+
 .brand__section ul li {
   margin-bottom: 0.75rem;
   line-height: 1.5;
   display: flex;
   align-items: center;
+  border-left: 3px solid rgba(222, 226, 230, 1);
+  padding-left: 8px;
 }
 
 .brand__section ul li a {
@@ -72,4 +101,63 @@
 
 .brand__section ul li a:hover {
   text-decoration: underline;
+}
+
+.main_footer {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_footer p {
+  margin-top: 64px;
+  color: #6c757d;
+}
+.main_header {
+  background-image: url("./images/c7e2e0d7111d666be94562b6f4830973da8b0621.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 151px;
+  padding-bottom: 151px;
+  text-align: center;
+}
+.main_header h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+}
+.main_header h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-top: 16px;
+}
+.main_footer span {
+  margin-bottom: 64px;
+  font-style: 14px;
+  line-height: 1.5;
+  margin-top: 4px;
+  color: #6c757d;
+}
+
+.brand-box {
+  background-color: #f5fee7;
+  padding: 32px;
+  text-align: center;
+  margin: 64px 0 48px 0;
+}
+
+.brand-box h4 {
+  color: #57a203;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.brand-box div {
+  margin-top: 12px;
+}
+.brand-box p {
+  line-height: 1.5;
 }
